@@ -13,14 +13,14 @@
 .page {
     width: 90%;
     margin: auto;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 .blue {
     width: 100%;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
     gap: 50px;
     background-color: #f7f8f8;
@@ -63,7 +63,7 @@
 
 .logo>img {
     width: 70px;
-    height: 35px;
+    /* height: 35px; */
 }
 
 .blackbox2 {background-color: white;
@@ -168,7 +168,7 @@
 /* heading/title start */
 .htitle {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .heading {
@@ -491,7 +491,7 @@
 .ban3con {
     /* margin: auto; */
     width: 30%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
