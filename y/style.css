@@ -38,7 +38,7 @@
 .bluebox>i {
     font-size: 15px;
     margin-right: 15px;
- 
+
     border-radius: 50%;
     background-color: #eaeaea;
 
@@ -66,33 +66,40 @@
     /* height: 35px; */
 }
 
-.blackbox2 {background-color: white;
+.blackbox2 {
+    background-color: white;
     border: 1px solid rgb(30, 61, 216);
     height: 40px;
     width: 700px;
-    border-radius:2px;
+    border-radius: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.blackbox2 input{width: 100%;
+
+.blackbox2 input {
+    width: 100%;
     height: 100%;
     border: none;
 }
 
-.btnmag{
+.btnmag {
     height: 40px;
     background-color: #002f34;
 }
-.btnmag i{
+
+.btnmag i {
     font-size: 30px;
 }
-.btnmag>button{ background-color: #002f34;
+
+.btnmag>button {
+    background-color: #002f34;
     border: none;
 
 }
-.paksearch{
+
+.paksearch {
     background-color: white;
     border: 1px solid black;
     height: 40px;
@@ -102,11 +109,13 @@
     justify-content: space-around;
     align-items: center;
 }
-.paksearch input{
+
+.paksearch input {
     border: none;
     outline: none;
     height: 40px;
 }
+
 .cate {
 
     display: flex;
@@ -462,6 +471,33 @@
 
 /* Section TV - Video - Audio Ends */
 
+/* Section Tablets Start */
+.sectiontablet {
+    display: flex;
+    gap: 14.5px;
+}
+
+
+.tbox {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 330px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+
+.timg {
+    background-image: url(images/tablet/tab1.jpeg);
+    width: 100%;
+    height: 55%;
+
+
+}
+
+/* Section Tablets End */
+
 .banner2 {
     background-image: url(images/banner/bg_1.png);
     width: 77%;
@@ -498,11 +534,12 @@
     /* align-items: center; */
     height: 200px;
 }
-.ban3con h3{
+
+.ban3con h3 {
     font-size: 32px;
 }
 
-.ban3con p{
+.ban3con p {
     font-size: 20px;
 }
 
@@ -511,6 +548,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .followgoogle {
     width: 84px;
     height: 28px;
@@ -551,12 +589,14 @@
     margin-right: 4px;
 
 }
-.followsocial{
+
+.followsocial {
     font-size: 14px;
     margin: 20px 0 4px 0;
     color: #002f34;
 }
-.end{
+
+.end {
     background-color: #002f34;
     color: white;
     height: 50px;
