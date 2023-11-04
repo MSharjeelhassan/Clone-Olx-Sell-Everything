@@ -30,15 +30,15 @@
 .bluebox {
     color: #222;
     font-size: 14px;
-    width: 40px;
+    /* width: 40px;
     height: 40px;
-    border: 1px solid red;
+    border: 1px solid red; */
 }
 
 .bluebox>i {
-    font-size: 10px;
-    margin-right: 10px;
-    border: 1px solid red;
+    font-size: 15px;
+    margin-right: 15px;
+ 
     border-radius: 50%;
     background-color: #eaeaea;
 
@@ -62,21 +62,49 @@
 }
 
 .logo>img {
-    width: 40px;
+    width: 70px;
+    height: 35px;
+}
+
+.blackbox2 {background-color: white;
+    border: 1px solid rgb(30, 61, 216);
+    height: 40px;
+    width: 700px;
+    border-radius:2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.blackbox2 input{
+    border: none;
+}
+
+.btnmag{
+    height: 40px;
+    background-color: #002f34;
+}
+.btnmag i{
+    font-size: 30px;
+}
+.btnmag>button{ background-color: #002f34;
+    border: none;
+
+}
+.paksearch{
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 280px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.paksearch input{
+    border: none;
     height: 40px;
 }
-
-/* .blackbox2 {
-  
-    flex-grow: 2;
-} */
-
-.blackbox>input {
-    border: 1px solid black;
-    line-height: 25px;
-    border-radius: 2px;
-}
-
 .cate {
 
     display: flex;
