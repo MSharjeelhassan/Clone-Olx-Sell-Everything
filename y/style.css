@@ -264,7 +264,7 @@
 }
 
 .cimg>img {
-    /* background-image: url(images/cars/car.jpeg); */
+
     width: 100%;
     object-fit: cover;
     /* height: 55%; */
@@ -326,43 +326,15 @@
     border-radius: 5px;
 }
 
-.b1img>img {
-    /* background-image: url(images/bike/bike1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
+.bimg>img {
+
     width: 100%;
     object-fit: contain;
     /* height: 55%; */
     /* border-radius: 5px; */
 }
 
-.b2img>img {
-    /* background-image: url(images/bike/bike2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    object-fit: contain;
-    width: 100%;
-    /* border: 5px solid blue; */
-    /* height: 55%; */
-    /* border-radius: 5px; */
-}
 
-.b3img>img {
-    /* background-image: url(images/bike/bike3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    width: 100%;
-    object-fit: cover;
-    /* height: 55%; */
-    /* border-radius: 5px; */
-}
-
-.b4img>img {
-    width: 100%;
-    object-fit: cover;
-    /* height: 55%; */
-    /* border-radius: 5px; */
-}
 
 .bikecontent {
     margin: 0 10px;
@@ -370,6 +342,7 @@
     flex-direction: column;
     justify-content: space-around;
     /* height: 45%; */
+    height: 180px;
 }
 
 .bprice {
@@ -390,40 +363,19 @@
     display: flex;
     flex-direction: column;
     width: 325px;
-    height: 330px;
+    /* height: 330px; */
     border-radius: 5px;
     border: 1px solid grey;
 }
 
-.h1img>img {
-    /* background-image: url(images/house/house1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
+.himg>img {
+
     width: 100%;
     object-fit: contain;
     /* height: 55%; */
     /* border-radius: 5px; */
 }
 
-.h2img>img {
-    /* background-image: url(images/house/house2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    width: 100%;
-    object-fit: contain;
-    /* height: 55%; */
-    /* border-radius: 5px; */
-}
-
-.h3img>img {
-    /* background-image: url(images/house/house3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    width: 100%;
-    object-fit: contain;
-    /* height: 55%; */
-    /* border-radius: 5px; */
-}
 
 .housecontent {
     margin: 0 10px;
@@ -431,6 +383,7 @@
     flex-direction: column;
     justify-content: space-around;
     /* height: 45%; */
+    height: 180px;
 }
 
 .hprice {
@@ -463,7 +416,7 @@
 }
 
 .tvimg>img {
-    /* background-image: url(images/tv/tv1.jpeg); */
+
     /* height: 55%; */
     object-fit: contain;
 
@@ -474,7 +427,7 @@
     /* height: 45%; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around;height: 180px;
 }
 
 .tvprice {
@@ -501,7 +454,7 @@
 
 
 .timg {
-    /* background-image: url(images/tablet/tab1.jpeg); */
+
     width: 100%;
     /* height: 55%; */
 
